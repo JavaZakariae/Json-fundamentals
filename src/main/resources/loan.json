@@ -1,0 +1,21 @@
+{
+  "name" : "bouali zakariae",
+  "purposeOfLoan" : "buy a house",
+  "details" : {
+         "amount": 250000,
+          "startDate" : "2020-01-30",
+          "endDate" : "2040-01-30"
+      },
+  "jobs" : [
+    {
+      "title" : "preparateur de commande",
+      "income" : 500 ,
+      "duration" : 5
+    },
+    {
+      "title" : "Software engeneer",
+      "income" : 2000 ,
+      "duration" : 5
+    }
+  ]
+}
