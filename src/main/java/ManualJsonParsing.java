@@ -11,10 +11,10 @@ import java.util.List;
  *
  *  Producing JSON Demo
  */
-public class ManJsonParsing {
+public class ManualJsonParsing {
 
     public static void main( String[] args ) {
-        toJson(JsonRunner.getLoan());
+        //toJson(JsonRunner.getLoan());
     }
 
     /**
