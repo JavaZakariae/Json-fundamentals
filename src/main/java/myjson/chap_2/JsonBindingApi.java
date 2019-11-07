@@ -1,6 +1,8 @@
+package myjson.chap_2;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
-import commun.Loan;
+import myjson.commun.Loan;
 
 import java.io.IOException;
 
@@ -16,11 +18,9 @@ public class JsonBindingApi {
     private static void toJson( Loan loan ) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         ObjectWriter writer = objectMapper.writerWithDefaultPrettyPrinter();
-     //   writer.writeValue(System.out, loan);
-
+        //writer.writeValue(System.out, loan);
         String json = writer.writeValueAsString(loan);
         System.out.println("json = " + json);
-
     }
 }
 

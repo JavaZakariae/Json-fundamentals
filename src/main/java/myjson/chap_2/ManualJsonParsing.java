@@ -1,10 +1,6 @@
-import commun.Job;
-import commun.Loan;
-import commun.LoanDetails;
+package myjson.chap_2;
 
-import java.lang.ref.SoftReference;
-import java.time.LocalDate;
-import java.util.List;
+import myjson.commun.Loan;
 
 /**
  * Manual Json Parsing
@@ -14,7 +10,7 @@ import java.util.List;
 public class ManualJsonParsing {
 
     public static void main( String[] args ) {
-        //toJson(JsonRunner.getLoan());
+        //toJson(myjson.chap_2.JsonRunner.getLoan());
     }
 
     /**

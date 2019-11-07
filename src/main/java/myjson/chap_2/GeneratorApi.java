@@ -1,10 +1,13 @@
+package myjson.chap_2;
+
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
-import commun.Job;
-import commun.Loan;
+import myjson.commun.Job;
+import myjson.commun.Loan;
 
 import java.io.IOException;
+
 
 /**
  * using generator api to create json object

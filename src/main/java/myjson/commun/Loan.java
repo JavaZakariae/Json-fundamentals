@@ -1,4 +1,4 @@
-package commun;
+package myjson.commun;
 
 import java.util.List;
 

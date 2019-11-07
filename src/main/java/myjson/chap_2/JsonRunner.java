@@ -1,6 +1,8 @@
-import commun.Job;
-import commun.Loan;
-import commun.LoanDetails;
+package myjson.chap_2;
+
+import myjson.commun.Job;
+import myjson.commun.Loan;
+import myjson.commun.LoanDetails;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -31,7 +33,7 @@ public class JsonRunner {
 
     }
 
-    static Loan getLoan(){
+    public static Loan getLoan(){
         return loan;
     }
 
