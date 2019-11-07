@@ -30,7 +30,7 @@ public class GeneratorApi {
         generator.setPrettyPrinter(new DefaultPrettyPrinter());
         generator.writeStartObject();
         generator.writeStringField("name", loan.getName());
-        generator.writeObjectField("purpose", loan.getPurposeOfLoan());
+        generator.writeStringField("purpose", loan.getPurposeOfLoan());
 
         generator.writeFieldName("details");
         generator.writeStartObject();
