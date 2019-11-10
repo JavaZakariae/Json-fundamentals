@@ -21,11 +21,8 @@ public class AdvancedJsonBinding {
 
     public static void main( String[] args ) throws IOException {
 
-        LocalDateDeserializer localDateDeserializer = new LocalDateDeserializer(DateTimeFormatter.ISO_DATE);
-        final SimpleModule simpleModule = new SimpleModule()
-                                                .addDeserializer(LocalDate.class, localDateDeserializer);
-        ObjectMapper mapper = new ObjectMapper().registerModule(simpleModule);
-        AnnotatedLoan annotatedLoan = mapper.readValue(loanFile, AnnotatedLoan.class);
+        ObjectMapper mapper = new ObjectMapper().registerModule(new JavaTimeModule());
+        ImmutableLoan annotatedLoan = mapper.readValue(loanFile, ImmutableLoan.class);
         System.out.println("annotatedLoan = \n" + annotatedLoan);
     }
 }
