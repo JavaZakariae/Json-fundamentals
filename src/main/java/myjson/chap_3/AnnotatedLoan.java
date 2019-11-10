@@ -1,5 +1,6 @@
 package myjson.chap_3;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import myjson.commun.Job;
 import myjson.commun.LoanDetails;
@@ -9,6 +10,8 @@ import java.util.List;
 public class AnnotatedLoan {
 
     private String name;
+
+    @JsonIgnore
     private String purposeOfLoan;
 
     @JsonProperty("details")
