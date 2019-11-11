@@ -23,8 +23,9 @@ public class StreamingApi {
             JsonToken jsonToken;
             while ((jsonToken=jsonParser.nextToken()) != null )
             {
-                System.out.print("jsonToken = " + jsonToken);
-                System.out.println("    jsonParser = " + jsonParser.getText());
+                if (jsonToken.isNumeric()){
+                    System.out.println(jsonParser.getCurrentName()+" " + jsonParser.getText());
+                }
             }
         }
     }
