@@ -1,0 +1,44 @@
+{
+  "name" : "bouali zakariae",
+  "purposeOfLoan" : "to buy a house",
+  "jobs" : [ {
+    "title" : "delhaize",
+    "income" : 500,
+    "duration" : 5
+  }, {
+    "title" : "Mainsys",
+    "income" : 2000,
+    "duration" : 5
+  } ],
+  "details" : {
+    "amount" : 2500.0,
+    "startDate" : {
+      "year" : 2020,
+      "month" : "JANUARY",
+      "monthValue" : 1,
+      "dayOfMonth" : 30,
+      "dayOfWeek" : "THURSDAY",
+      "leapYear" : true,
+      "dayOfYear" : 30,
+      "era" : "CE",
+      "chronology" : {
+        "id" : "ISO",
+        "calendarType" : "iso8601"
+      }
+    },
+    "endDate" : {
+      "year" : 2040,
+      "month" : "JANUARY",
+      "monthValue" : 1,
+      "dayOfMonth" : 30,
+      "dayOfWeek" : "MONDAY",
+      "leapYear" : true,
+      "dayOfYear" : 30,
+      "era" : "CE",
+      "chronology" : {
+        "id" : "ISO",
+        "calendarType" : "iso8601"
+      }
+    }
+  }
+}
